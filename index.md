@@ -7,7 +7,7 @@ title: Will's Homepage
 
 **Game Programmer**
 
-JBK Studios | Full-time
+JBK Studios (Full-time)
 
 Jul 2020 - Nov 2020
 
@@ -15,7 +15,7 @@ Sydney, Australia
 
 **Information Technology Support Officer**
 
-National Institute of Dramatic Art (NIDA) | Casual
+National Institute of Dramatic Art (Casual)
 
 Oct 2019 - Oct 2020
 
