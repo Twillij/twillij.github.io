@@ -3,12 +3,17 @@ layout: page
 title: Will's Homepage
 ---
 
-# Experience
+## Experience
 
-**Information Technology Support Officer**
-National Institute of Dramatic Art (NIDA) | Casual
-Oct 2019 - Oct 2020 | 1 year, 1 month
-Sydney, Australia
+* **Game Programmer**
+* JBK Studios | Full-time
+* Jul 2020 - Nov 2020
+* Sydney, Australia
+
+* **Information Technology Support Officer**
+* National Institute of Dramatic Art (NIDA) | Casual
+* Oct 2019 - Oct 2020
+* Sydney, Australia
 
 ## Education
 
