@@ -13,6 +13,7 @@ Jul 2020 - Nov 2020
 
 Sydney, Australia
 
+
 **Information Technology Support Officer**
 
 National Institute of Dramatic Art (Casual)
@@ -21,7 +22,28 @@ Oct 2019 - Oct 2020
 
 Sydney, Australia
 
+
 ## Education
+
+**Academy of Interactive Entertainment (AIE)**
+
+Advanced Diploma in Game Programming
+
+2019 - 2020
+
+
+**University of New South Wales (UNSW)**
+
+Bachelor's Degree in Economics
+
+2014 - 2018
+
+
+**Caringbah High School**
+
+2008 - 2013
+
+
 
 A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
