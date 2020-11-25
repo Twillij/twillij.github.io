@@ -3,6 +3,8 @@ layout: home
 title: Will's Homepage
 ---
 
+[Try this](about.md)
+
 ### Experience
 
 **Game Programmer**<br/>
