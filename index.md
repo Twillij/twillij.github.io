@@ -5,14 +5,10 @@ title: Will's Homepage
 
 ## Experience
 
-**Game Programmer**
-
-JBK Studios (Full-time)
-
-Jul 2020 - Nov 2020
-
+**Game Programmer**<br/>
+JBK Studios (Full-time)<br/>
+Jul 2020 - Nov 2020<br/>
 Sydney, Australia
-
 
 **Information Technology Support Officer**
 
@@ -23,7 +19,9 @@ Oct 2019 - Oct 2020
 Sydney, Australia
 
 
+
 ## Education
+
 
 **Academy of Interactive Entertainment (AIE)**
 
@@ -42,6 +40,11 @@ Bachelor's Degree in Economics
 **Caringbah High School**
 
 2008 - 2013
+
+
+
+## Skills
+
 
 
 
