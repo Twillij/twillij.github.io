@@ -3,11 +3,14 @@ layout: page
 title: Will's Homepage
 ---
 
-#Experience
+# Experience
 
+**Information Technology Support Officer**
+National Institute of Dramatic Art (NIDA) | Casual
+Oct 2019 - Oct 2020 | 1 year, 1 month
+Sydney, Australia
 
-
-#Education
+## Education
 
 A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
