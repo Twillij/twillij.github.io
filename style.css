@@ -58,6 +58,10 @@ html, body {
     padding: 3rem;
 }
 
+.fa-linkedin {
+    color: #2867b2;
+}
+
 .fa-twitter {
     color: #00acee;
 }
@@ -68,6 +72,25 @@ html, body {
 
 .fa-github {
     color: #6e5494;
+}
+
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-github:hover {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }
 
 /*---Media Queries --*/
