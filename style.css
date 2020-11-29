@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-
-
-
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 }
@@ -20,6 +10,9 @@
 @media (max-width: 576px) {
 }
 
+h1 {
+    margin:20px;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
