@@ -32,7 +32,7 @@ html, body {
 .carousel-caption {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
 
 .carousel-caption h1 {

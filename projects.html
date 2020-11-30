@@ -13,23 +13,66 @@
     <link href="style.css" rel="stylesheet">
 </head>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                </li>
-            </ul>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Jumbotron-->
+    <div class="container-fluid padding">
+        <div class="row jumbotron" id="sliceoflife">
+            <div class="col-12 col-md-6 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AP-2eOVTf8w" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h1>Slice of Life</h1><br>
+                <p>Insert description.</p>
+            </div>
         </div>
-    </nav>
-</header>
+        <div class="row jumbotron" id="vrcarnival">
+            <div class="col-12 col-md-6 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video controls class="embed-responsive-item">
+                        <source src="./videos/vrcarnival.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h1>VR Carnival</h1><br>
+                <p>Insert description.</p>
+            </div>
+        </div>
+        <div class="row jumbotron" id="islanddefense">
+            <div class="col-12 col-md-6 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video controls class="embed-responsive-item">
+                        <source src="./videos/islanddefense.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h1>Island Defense</h1><br>
+                <p>Insert description.</p>
+            </div>
+        </div>
+    </div>
+</body>
