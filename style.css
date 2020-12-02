@@ -86,7 +86,8 @@ html, body {
 
 .fa-twitter:hover,
 .fa-youtube:hover,
-.fa-github:hover {
+.fa-github:hover,
+.fa-itch-io:hover {
     color: #d5d5d5;
 }
 
