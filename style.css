@@ -80,6 +80,10 @@ html, body {
     color: #6e5494;
 }
 
+.fa-itch-io {
+    color: #222222;
+}
+
 .fa-twitter:hover,
 .fa-youtube:hover,
 .fa-github:hover {
