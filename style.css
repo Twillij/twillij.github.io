@@ -71,8 +71,24 @@ html, body {
     padding: 2rem;
 }
 
+.fa-github {
+    color: #6e5494;
+}
+
+.fa-itch-io {
+    color: #222222;
+}
+
 .fa-linkedin {
     color: #2867b2;
+}
+
+.fa-playstation {
+    color: #000000;
+}
+
+.fa-steam {
+    color: #000000;
 }
 
 .fa-twitter {
@@ -83,24 +99,15 @@ html, body {
     color: #bb0000;
 }
 
-.fa-github {
-    color: #6e5494;
-}
-
-.fa-itch-io {
-    color: #222222;
-}
-
-.fa-steam {
-    color: #1b2838;
-}
-
 .fa-linkedin:hover,
 .fa-twitter:hover,
 .fa-youtube:hover,
 .fa-github:hover,
 .fa-itch-io:hover,
-.fa-steam:hover {
+.fa-steam:hover,
+.fa-playstation:hover {
+    color: #000000;
+}{
     color: #d5d5d5;
 }
 
