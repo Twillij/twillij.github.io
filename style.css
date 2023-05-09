@@ -91,11 +91,16 @@ html, body {
     color: #222222;
 }
 
+.fa-steam {
+    color: #1b2838;
+}
+
 .fa-linkedin:hover,
 .fa-twitter:hover,
 .fa-youtube:hover,
 .fa-github:hover,
-.fa-itch-io:hover {
+.fa-itch-io:hover,
+.fa-steam:hover {
     color: #d5d5d5;
 }
 
