@@ -61,9 +61,10 @@ html, body {
     font-family: Forte;
 }
 
-.about-me
+.photo
 {
-    padding-bottom: 12rem;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .social a {
