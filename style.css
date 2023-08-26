@@ -53,10 +53,6 @@ html, body {
     margin-bottom: 0;
 }
 
-.padding {
-    padding-bottom: 2rem;
-}
-
 .welcome-heading {
     font-family: Forte;
 }
@@ -65,11 +61,6 @@ html, body {
 {
     padding-bottom: 0;
     padding-top: 0;
-}
-
-.social a {
-    font-size: 3em;
-    padding: 2rem;
 }
 
 footer {
