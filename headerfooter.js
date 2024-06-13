@@ -1,4 +1,4 @@
-fetch('header.html')
+fetch('includes/header.html')
     .then(response => {
         return response.text(); // Convert response into text
     })
@@ -9,7 +9,7 @@ fetch('header.html')
         console.log('Error:', error);
     });
 
-fetch('footer.html')
+fetch('includes/footer.html')
     .then(response => {
         return response.text(); // Convert response into text
     })

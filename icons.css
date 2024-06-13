@@ -1,3 +1,7 @@
+.fab {
+    font-size: 24px;
+}
+
 .fa-github {
     color: #6e5494;
 }
@@ -20,6 +24,10 @@
 
 .fa-twitter {
     color: #00acee;
+}
+
+.fa-xbox {
+    color: #107c10;
 }
 
 .fa-youtube {
