@@ -6,8 +6,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <link href="icons.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/icons.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b7b2aee096.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" crossorigin="anonymous"></script>
     <script src="headerfooter.js"></script>
@@ -17,41 +17,58 @@
     <div id="header"></div>
 
     <div class="container-fluid">
-        <div class="row jumbotron char-info">
-            <div class="col-3 photo">
-                <img src="images/photo.jpg" class="img-fluid" alt="Photo"/>
-            </div>
-            <div class="col">
-                <h2>Character Information</h2>
-                <p>
-                    <br><b>Name:</b> William Tjang
-                    <br><b>Main Skills:</b> C++ (3+ years), Unreal Engine (2 years)
-                    <br><b>Extra Skills:</b> C# (1 year), Unity (1 year), HTML/CSS (1 year)
-                    <br><b>Traits:</b> Passionate, creative, open-minded
-                    <br><b>Achievements:</b> Released a title (2022)
-                </p>
-            </div>
+        <div class="row jumbotron text-center char-info">
+            <h1>Character Information</h1>
         </div>
     </div>
     
     <div class="container-fluid">
-        <div class = ></div>
-        <h2>Message Board</h2>
-        <p>
-            <br>Hi, my name is Will and I am a game developer who is currently located in Sydney, Australia.
-            <br>I have over 3 years of experience programming in native C++, and about 2 years using Unreal Engine.
-            <br>I shipped my first title on PC and consoles as the lead publishing developer in 2022.
-            <br>Game development has always been my passion so I'm constantly looking for new opportunities to hone my skills and create even better games.
-        </p>
-        <p>
-            If you would like to learn more about me, please select one of the options below.
-        </p>
-        <div class="projects">
-            <a class="btn btn-outline-secondary" type="button" href="./projects.html">View Projects</a>
+        <div class="row jumbotron">
+            
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-3">
+                
+                <div class="row photo">
+                    <img src="images/photo.jpg" class="img-fluid" alt="Photo"/>
+                </div>
+                
+                <div class="row">
+                    <a class="btn btn-outline-secondary" type="button" href="./projects.html">View Projects</a>
+                    <a class="btn btn-outline-secondary" type="button" href="./docs/WilliamTjang_CV_24-06-11.pdf">View Resume</a>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="row">
+                    <h2>William Tjang</h2>
+                    <span><b>Class:</b> Game Programmer</span>
+                    <span><b>Location:</b> Sydney, Australia</span>
+                    <span><b>Primary Skills:</b> C++, Unreal Engine, Git</span>
+                    <span><b>Secondary Skills:</b> C#, Unity, HTML/CSS, Python</span>
+                    <span><b>Traits:</b> Diligent, rational, open-minded</span>
+                    <span><b>Achievements:</b> Shipped a commercial game (2022)</span>
+                </div>
+                
+                <div class="row">
+                    <p>
+                        <br>Hi my name is Will, and I am a game developer! \(^o^)/
+                        <br>
+                        <br>To me, games are a means to enjoy meaningful experiences and create precious memories.
+                        <br>From my perspective, games can be a great tool to not only entertain, but teach as well.
+                        <br>I feel like as a medium, there are still so many possibilities with games that remain yet unexplored.
+                        <br>
+                        <br>I hope that in my career, I can be a pioneer who will explore one of the myriads of untapped potentials within gaming.
+                        <br>My passion extends beyond just work, as I am always working on personal projects and striving to improve my skills.
+                        <br>Should there be new exciting opportunities for me to display my skills, I will always be there to find it.
+                        <br>Buf if not, then I will create those opportunities by my own hands =)
+                        <br>
+                        <br>P.S. My favourite game series of all time is the Final Fantasy series 💎
+                    </p>
+                    
+                </div>
+                
+            </div>
         </div>
-        <div class="resume">
-            <a class="btn btn-outline-secondary" type="button" href="./docs/WilliamTjang_CV_23-08-26.pdf">View Resume</a>
-        </div>
+        
     </div>
 
     <div id="footer"></div>

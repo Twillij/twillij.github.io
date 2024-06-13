@@ -1,0 +1,45 @@
+.fab {
+    font-size: 48px;
+}
+
+.fa-github {
+    color: #6e5494;
+}
+
+.fa-itch-io {
+    color: #222222;
+}
+
+.fa-linkedin {
+    color: #2867b2;
+}
+
+.fa-playstation {
+    color: #000000;
+}
+
+.fa-steam {
+    color: #000000;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-xbox {
+    color: #107c10;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-github:hover,
+.fa-itch-io:hover,
+.fa-linkedin:hover,
+.fa-playstation:hover,
+.fa-steam:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}

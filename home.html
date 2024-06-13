@@ -8,13 +8,15 @@
         <title>Will the Dev | Home</title>
 
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet">
-        <link href="icons.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b7b2aee096.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/bootstrap_5.3.3.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/icons.css">
 
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="scripts/font-awesome.js"></script>
+        <script src="scripts/jquery-3.7.1.min.js"></script>
+        <script src="scripts/popper_2.11.8.min.js"></script>
+        <script src="scripts/bootstrap_5.3.3.bundle.min.js"></script>
+        
         <script src="headerfooter.js"></script>
     </head>
 
@@ -22,42 +24,55 @@
         <div id="header"></div>
 
         <!--Carousel Slider-->
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1"></li>
-                <li data-target="#slides" data-slide-to="2"></li>
-            </ul>
+        <div id="carouselShowcase" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselShowcase" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/sliceoflife.png" />
-                    <div class="carousel-caption">
-                        <a class="btn btn-outline-light btn-lg" type="button" href="./projects.html#sliceoflife">View Project</a>
+                    <img class="d-block w-100" src="images/winter_ember.jpg" alt="winter_ember"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-outline-light btn-lg" type="button" href="projects.html#winter-ember">View Project</a>
                     </div>
                 </div>
+                
                 <div class="carousel-item">
-                    <img src="images/vrcarnival.png" />
-                    <div class="carousel-caption">
-                        <a class="btn btn-outline-light btn-lg" type="button" href="./projects.html#vrcarnival">View Project</a>
+                    <img src="images/slice_of_life.png" alt="slice_of_life"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-outline-light btn-lg" type="button" href="projects.html#slice-of-life">View Project</a>
                     </div>
                 </div>
+                
                 <div class="carousel-item">
-                    <img src="images/islanddefense.png" />
-                    <div class="carousel-caption">
+                    <img src="images/vr_carnival.png" alt="vr_carnival"/>
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="btn btn-outline-light btn-lg" type="button" href="projects.html#vr-carnival">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/island_defense.png"  alt="island_defense"/>
+                    <div class="carousel-caption d-none d-md-block">
                         <h1 class="display-2">Island Defense</h1>
                         <br>
-                        <a class="btn btn-outline-light btn-lg" type="button" href="./projects.html#islanddefense">View Project</a>
+                        <a class="btn btn-outline-light btn-lg" type="button" href="projects.html#island-defense">View Project</a>
                     </div>
                 </div>
             </div>
-            <div class="carousel-control-icon">
-                <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselShowcase" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Prev</span>
+            </button>
+            
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselShowcase" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <!--Welcome Section-->
